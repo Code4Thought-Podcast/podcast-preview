@@ -1,0 +1,2548 @@
+00:00.03
+Carlos
+Gracias.
+
+00:01.29
+Peter Schmidt
+Now he can.
+
+00:02.11
+Peter Schmidt
+Now he can.
+
+00:04.19
+Sofia
+Hola, bienvenidos a Code for Thought, el podcast sobre software para investigación y las personas que lo crean.
+
+00:09.17
+Sofia
+Soy Sofía Miñano y hoy tengo el placer de ocupar el asiento de Peter en esta edición especial del podcast en español.
+
+00:14.88
+Sofia
+Es posible que para muchos de nuestros oyentes hispanohablantes el término ingeniero de software de investigación
+
+00:20.20
+Sofia
+o RSE por sus siglas en inglés, suene como algo nuevo.
+
+00:24.14
+Sofia
+En muchos países no existe un título oficial para quienes aplican el desarrollo de software al ámbito de investigación académica.
+
+00:30.11
+Sofia
+Sin embargo, el software es cada vez más prevalente en la investigación, desde los ámbitos de ciencia a los de humanidades,
+
+00:35.69
+Sofia
+Y como dice el Instituto de Sostenibilidad de Software, SSI por sus siglas en inglés, el software de calidad es fundamental para la investigación de calidad.
+
+00:48.79
+Sofia
+Debido a esta necesidad, cada vez en más partes del mundo se puede trabajar como programador o ingeniero en el mundo académico o científico.
+
+00:55.80
+Sofia
+Hoy hablamos con Carlos Gaviria Calderón, un ingeniero de software de investigación en el Instituto Alan Turing, el Instituto Nacional de Inteligencia Artificial del Reino Unido, que nos va a contar cómo es esta profesión y cómo puede uno acceder a ella y cómo él ve el papel de los RSI en Latinoamérica.
+
+01:11.68
+Carlos
+Hola Sofía, encantado de estar acá.
+
+01:13.64
+Sofia
+Hola Carlos, qué bien hablar contigo.
+
+01:16.24
+Sofia
+Bueno, pues para empezar quería hablar un poco de qué es un aresí y qué hace.
+
+01:21.36
+Sofia
+Entonces, bueno, Diego Alonso Álvarez, que es el jefe del grupo de aresí en Imperial, dio una muy buena charla al principio de nuestro seminario de charlas de aresí en español sobre qué es un aresí y cómo se entiende el rol en las universidades del Reino Unido.
+
+01:35.69
+Sofia
+¿Cómo describirías tú esta profesión?
+
+01:39.50
+Carlos
+Bueno, básicamente, ingeniero de software en investigación, creo que está en el nombre, ¿no?
+
+01:44.44
+Carlos
+Ingeniero de software que trabaja en el ámbito de investigación científica, en la academia.
+
+01:48.08
+Sofia
+Mm-hmm.
+
+01:48.22
+Sofia
+Mm-hmm.
+
+01:49.88
+Carlos
+Yo hace muchos años trabajé en industria, en una empresa de seguros, y yo me acuerdo que mis colegas, ingenieros como yo, informáticos, sabían tanto más de las pólizas que la gente de la seguridad, la que vende el producto, ¿no?
+
+02:04.71
+Carlos
+Y creo que hay algo de eso, o sea, cuando uno como ingeniero informático trabaja en un ámbito, saber del ámbito te ayuda bastante.
+
+02:11.97
+Carlos
+Y creo que ese es el agregado que nosotros los, voy a usar las cifras en inglés, perdón, los RSC traemos a los proyectos, ¿no?
+
+02:21.45
+Carlos
+Somos informáticos, pero que sabemos de ciencia, por ende podemos tener mucho más impacto, mucho más rápido que un informático que lo desconoce.
+
+02:21.64
+Sofia
+Ok, ok.
+
+02:31.59
+Sofia
+O sea, la ventaja desde tu punto de vista, la ventaja principal es este, a veces lo llaman como domain knowledge, conocimiento del ámbito en el que estás trabajando.
+
+02:38.65
+Carlos
+Sí.
+
+02:41.52
+Sofia
+Ok, cool.
+
+02:41.61
+Carlos
+Sí, así es.
+
+02:42.53
+Carlos
+Y también se traduce en lo técnico.
+
+02:44.89
+Carlos
+Por ejemplo, me acuerdo de que cuando trabajaba en industria hace años de años, yo sabía Java.
+
+02:50.55
+Carlos
+Era un llavero.
+
+02:51.23
+Carlos
+Y eso era bastante... Era un llavero, así es, así es.
+
+02:56.55
+Carlos
+Y eso tenía un valor.
+
+02:58.29
+Carlos
+Tenía un valor.
+
+02:58.83
+Carlos
+Como era de Java, un lenguaje muy popular en la industria, había demanda.
+
+03:04.59
+Carlos
+Cuando hice el salto a la academia, bueno, Java no es tan popular.
+
+03:10.01
+Sofia
+Claro, o sea que también las tecnologías que se usan y los skills que se requieren varían un poquito entre academia e industria.
+
+03:15.32
+Carlos
+Sí.
+
+03:17.79
+Carlos
+Por ejemplo, últimamente Julia es muy popular en proyectos científicos, pero no creo que ningún banco o aseguradora trabaje con Julia en el día de hoy.
+
+03:26.83
+Sofia
+yo conozco una persona que está contratada programando en Julia y siempre le digo que debe ser uno de los 50 en el mundo o sea que sí cool está en una startup o sea que es un poco sí es como una startup de en verdad hace bastante research o sea es como research en la industria pero sí en una startup
+
+03:39.02
+Carlos
+¿Trabaja en industria o academia?
+
+03:42.48
+Carlos
+Ah, mira tú.
+
+03:49.57
+Carlos
+No, pero sí, pero creo que si vas a la industria te conviene más saber Python que saber Julian.
+
+03:53.64
+Carlos
+Me atrevería a decir.
+
+03:54.54
+Carlos
+Ah, claro, claro, claro.
+
+03:55.03
+Sofia
+Ajá.
+
+03:55.31
+Sofia
+Ok, ok, interesante.
+
+03:56.75
+Sofia
+Cool, bueno, cuéntanos un poquito más sobre tu trabajo actual.
+
+03:59.78
+Sofia
+¿En qué proyectos de software estás trabajando ahora en el Turing?
+
+04:02.08
+Sofia
+¿Nos puedes contar un poquito?
+
+04:04.24
+Carlos
+Este, ya voy casi dos años en un proyecto que se llama CVDNet.
+
+04:08.80
+Carlos
+Y CVDNet, el objetivo es que por cinco años queremos hacer un prototipo de lo que es un digital twin del sistema cardiovascular.
+
+04:17.32
+Carlos
+En el espíritu de nuestras charlas no voy a decir Digital Twin, voy a decir este gemelo digital.
+
+04:22.50
+Sofia
+Qué bonito, qué bonito.
+
+04:23.70
+Carlos
+Y el gemelo digital es básicamente un modelo computacional personalizado.
+
+04:29.34
+Carlos
+O sea, podemos hacer un modelo computacional de los pulmones y corazón de Sofía.
+
+04:33.86
+Carlos
+Y con este modelo podemos predecir cómo tu salud va a evolucionar en el tiempo y si algún medicamento te va a mejorar o no te va a mejorar.
+
+04:38.26
+Sofia
+Ok, como un poco... Sí, como lo de la medicina personalizada un poco, ¿no?
+
+04:43.00
+Carlos
+Ahora, no dime ni más.
+
+04:47.51
+Carlos
+Así es, así es, así es.
+
+04:47.99
+Sofia
+Vale, está bueno.
+
+04:49.27
+Carlos
+Entonces, bueno, el proyecto es bastante grande.
+
+04:51.79
+Carlos
+Tenemos los postdocs, investigadores postdoctorales, ellos hacen el desarrollo del gemelo digital, no el modelamiento.
+
+04:59.99
+Carlos
+Ellos son gente que saben de anatomía, que saben de medicina, a diferencia mía que estoy en informático.
+
+05:05.85
+Carlos
+Pero mi contribución va por dos lados en el proyecto.
+
+05:06.06
+Sofia
+Ajá.
+
+05:10.05
+Carlos
+Para ser este gemelo digital necesitan data de pacientes, de pacientes y de estudios clínicos.
+
+05:13.52
+Sofia
+uh-huh okay okay
+
+05:17.67
+Carlos
+Ahora, esta data es sensible.
+
+05:19.63
+Carlos
+Tú no quieres que tu información de tu salud aparezca en, no sé, en Reddit o en GitHub.
+
+05:27.85
+Carlos
+Entonces, lo que hacemos nosotros es le damos a los investigadores un entorno computacional en la nube, básicamente, donde ellos pueden trabajar y tienen unas salvaguardas que evitan, por ejemplo, que la data te la subas a tu correo.
+
+05:40.86
+Carlos
+Y lo otro es de que, bueno, o sea, estos son científicos, hacen su código en su laptop, en su Jupyter Notebook,
+
+05:47.62
+Carlos
+Pero la idea es pasar eso a una herramienta que un médico puede utilizar para interactuar con sus pacientes.
+
+05:54.18
+Sofia
+muy bueno y eso le
+
+05:54.56
+Carlos
+Eso también lo construimos nosotros.
+
+05:56.12
+Carlos
+Los investigadores nos dan el modelo y nosotros hacemos una pipeline, no sé cómo se dice en castellano, pero una pipeline, un flujo que es desde el dato clínico, lo que te pone el médico, y de ahí hay una interfaz web que te va a decir, este paciente, su evolución va a ir así y si usa este medicamento va a ir así.
+
+06:16.78
+Carlos
+Entonces, eso es.
+
+06:18.29
+Sofia
+¿Están como deployed?
+
+06:22.73
+Sofia
+¿Lo está utilizando la gente ahora mismo?
+
+06:25.31
+Sofia
+¿Algún tipo de prototipo o cómo es el plan?
+
+06:27.83
+Carlos
+Está en construcción, en construcción.
+
+06:29.25
+Sofia
+Ok, ok, cool.
+
+06:30.21
+Carlos
+Creo que de aquí a dos años ya va a estar un poquito listo para que la gente lo vea.
+
+06:34.18
+Sofia
+Qué bueno.
+
+06:34.17
+Carlos
+Pero sí, es un proyecto, el objetivo del proyecto no es ya que salga esto y para que lo pongan en el hospital del Neches, ¿no?
+
+06:41.42
+Sofia
+Ajá.
+
+06:41.45
+Carlos
+Solamente un prototipo.
+
+06:44.41
+Sofia
+Está muy bien porque lo de traducir algo que se desarrolla en investigación y hacer un pequeño prototipo para algo que tenga impacto en la vida de los médicos, es muy bonito eso.
+
+06:55.69
+Carlos
+Y tal vez después hablaremos, ¿no?
+
+06:56.77
+Carlos
+Porque sí, este, pasar el prototipo a algo que de verdad el usuario de la calle puede usar es una brecha muy grande, ¿no?
+
+07:04.39
+Sofia
+Sí, sí, efectivamente.
+
+07:07.28
+Sofia
+También quería mencionar que sé de primera mano que organizas un seminario mensual sobre desarrollo de software para investigación en español, que ya hemos hecho varias menciones a las charlas, lo llamamos las charlas RSI, que es un poco mezclando inglés y español, pero bueno, sí son charlas sobre desarrollo de software para la investigación.
+
+07:26.41
+Sofia
+Hablaremos un poco más en detalle sobre esto un poquito más tarde, pero solo para aclararlo para nuestros oyentes.
+
+07:34.44
+Sofia
+Si quieres, podemos seguir hablando un poquito más sobre tu trayectoria, sobre cómo fue tu camino desde la ingeniería en Perú hasta estar ahora trabajando como RSC en Londres.
+
+07:43.18
+Sofia
+¿Qué es lo que te atrajo de este campo y qué fue lo que más te motivó a dar este salto internacional?
+
+07:50.40
+Carlos
+Bueno, te puedo decir lo que hice yo, que después hablaremos también, la gente llega a esta carrera de muchas formas, pero les puedo contar al menos la mía.
+
+07:59.66
+Carlos
+Yo soy informático, bueno, en Perú le llamamos ingeniero de sistemas,
+
+08:04.05
+Carlos
+Hice mis cinco años, trabajé en la industria, en la aseguradora, lo que te conté, y siempre tuve el bichito de la investigación científica.
+
+08:12.41
+Carlos
+Quería probar.
+
+08:14.33
+Carlos
+Hice una maestría en informática y ahí mis asesores me dijeron, oye, si te gusta esto y quieres seguir más, ¿por qué no haces un doctorado?
+
+08:24.00
+Sofia
+Te pusieron ahí un caramelito.
+
+08:24.07
+Carlos
+Y bueno, dije, sí, sí, sí, me convencieron.
+
+08:29.68
+Carlos
+Bueno, y un tema latinoamericano es de que
+
+08:34.18
+Carlos
+Hay mucha disparidad en nivel de desarrollo científico.
+
+08:36.52
+Carlos
+Y Perú no es, para decirlo con todas sus letras, nos falta un montón comparado con otros países.
+
+08:44.19
+Carlos
+Entonces, de la región, lo comparo con Brasil, está al costadito y es un monstruo.
+
+08:44.50
+Sofia
+¿De la región?
+
+08:45.56
+Sofia
+Ajá Ajá Ajá
+
+08:50.22
+Carlos
+Entonces, empecé a aplicar.
+
+08:52.55
+Carlos
+Por suerte me quisieron acá en el Reino Unido, en Londres.
+
+08:55.95
+Carlos
+Hice mi doctorado en Ingeniería y Software, acá en UCL, donde tú trabajas, en UCL.
+
+09:01.81
+Carlos
+Y bueno, estuve en el mundo académico puro como siete años.
+
+09:06.55
+Carlos
+Y en el mundo académico puro, bueno, uno escribe software, pero la principal responsabilidad de uno es escribir papers.
+
+09:15.61
+Carlos
+¿Cómo se dice paper en castellano?
+
+09:17.73
+Sofia
+Artículos, yo creo que sí que artículos.
+
+09:19.99
+Carlos
+Artículos científicos.
+
+09:20.38
+Sofia
+Sí.
+
+09:20.48
+Sofia
+Ajá.
+
+09:21.95
+Carlos
+Pero sí, y me di un poco de... Estuve en eso varios años, pero me di un poco de nostalgia.
+
+09:26.49
+Carlos
+Porque yo he escrito código profesionalmente por muchos años.
+
+09:30.60
+Carlos
+Y sí, me gusta.
+
+09:31.42
+Carlos
+Y lo extraño.
+
+09:33.62
+Carlos
+Y ahí fue cuando vi la oportunidad del Turing, ¿no?
+
+09:36.12
+Carlos
+Y fue mi primer contacto con este mundo del Research, Software Engineering, Engineering Software de Investigación, y me parece muy chévere.
+
+09:43.09
+Carlos
+Tengo, escribo mi código, pero también mantengo la conexión con la academia.
+
+09:48.23
+Carlos
+Y al menos a mí eso me gusta bastante, un poquito de los dos.
+
+09:52.96
+Sofia
+Me da curiosidad qué es lo que echabas de menos del código en la industria, porque en mi punto de vista es como más estandarizado, más ordenado.
+
+10:03.20
+Sofia
+¿Qué echabas de menos?
+
+10:05.10
+Carlos
+Creo que era un tema de impacto.
+
+10:07.04
+Sofia
+Ok, ahí sí.
+
+10:07.40
+Carlos
+Cuando escribes el código de la industria, lo escribes, lo validan y hay gente que lo va a usar.
+
+10:12.22
+Sofia
+Ajá.
+
+10:12.72
+Carlos
+En la academia escribes tu código para tu paper y solamente tú lo ves.
+
+10:17.58
+Sofia
+Sí, con suerte el siguiente PhD también lo usa.
+
+10:18.26
+Carlos
+Y de ahí, con suerte, por lo general lo botas.
+
+10:23.58
+Sofia
+Sí, es verdad.
+
+10:25.57
+Sofia
+Sí, es bonito, es verdad.
+
+10:26.28
+Carlos
+Ese sentimiento de hago algo y hay gente que lo usa, se siente bonito, al menos para mí.
+
+10:32.19
+Sofia
+Yo creo que mucha gente busca eso y es verdad que en el puesto de RSC, de ingeniero de software de investigación, sí que siente uno un poco eso, que está facilitando el uso de herramientas que son útiles, pero les falta esa...
+
+10:44.74
+Sofia
+última milla o esa para hacerlo realmente que tenga impacto en... Sí, true, es verdad.
+
+10:49.54
+Carlos
+Creo que es un tema de plata, pero ya hablaremos de eso más adelante.
+
+10:54.61
+Sofia
+Ok, hemos hablado un poquito de que tienes experiencia en la academia como investigador.
+
+10:58.01
+Sofia
+Bueno, de hecho tienes un doctorado en teoría de juegos y bueno, hemos dicho que has hablado también en la industria, hemos hablado de las diferencias entre trabajar como ingeniero de software en la industria y en la academia...
+
+11:08.61
+Sofia
+Bueno, sabemos de las charlas que tuvimos a dos ponentes, a Jenny Vega y a Lucía Cipollina, que trabajan como ingenieras de software de investigación en la industria.
+
+11:18.26
+Sofia
+O sea, hacen investigación, pero dentro del sector privado.
+
+11:22.38
+Sofia
+O sea, Jenny trabajaba en isomorphic, que estudian como desarrollo de drogas utilizando inteligencia artificial.
+
+11:29.42
+Sofia
+bueno, fármacos, perdón, desarrollo de fármacos utilizando inteligencia artificial y Lucía que trabajaba en Meta.
+
+11:35.95
+Sofia
+No sé si quieres comentar algo más sobre las diferencias que ves entre desarrollar software en la industria y la academia, incluso en ambos casos dentro de la investigación, haciendo investigación tú.
+
+11:46.38
+Sofia
+¿Qué diferencias ves?
+
+11:47.70
+Carlos
+Ah, sí, sí, bueno, primero para dejar en claro que de este mundo de la investigación corporativa, como lo que hace Lucía en Meta, lo que hace Jenny en Morphe, de eso sí no tengo mucha experiencia y creo que es un mundo aparte.
+
+12:01.44
+Sofia
+Venga a las charlas.
+
+12:01.38
+Carlos
+Si quieren saber más, vayan a mi página, ahí están las diapositivas.
+
+12:03.66
+Sofia
+Sí, claro.
+
+12:06.62
+Carlos
+Pero yo les puedo comentar del tema de RSC en el mundo académico, que es lo que yo conozco.
+
+12:14.05
+Carlos
+Y sí creo que es un poquito como el agua y el aceite.
+
+12:18.21
+Carlos
+Es bien diferente.
+
+12:21.45
+Carlos
+Por ejemplo, en la industria, por lo general, hay dinero, ¿no?
+
+12:26.81
+Carlos
+Y eso se traduce como tienes equipos de ingeniería grandes, 15 ingenieros, con project managers, con testers, tienes servidores, y tienes una comunidad de usuarios, ¿no?
+
+12:38.82
+Carlos
+Que es más o menos larga.
+
+12:41.06
+Carlos
+En el mundo académico no es tan así.
+
+12:43.98
+Sofia
+Sí, claro.
+
+12:45.48
+Carlos
+incluso en el Reino Unido, que es el primer mundo, no hay tanta plata.
+
+12:51.06
+Sofia
+Sí, se nota la diferencia, claro.
+
+12:51.10
+Carlos
+O sea, un proyecto de RSC, no sé cómo será tú, Sofía, pero con suerte, dos RSCs tal vez, y de ahí postdocs, y bueno, también la plata al menos para compute es limitada, ¿no?
+
+13:00.75
+Sofia
+Sí.
+
+13:10.13
+Sofia
+Sí, sí, sí.
+
+13:11.75
+Sofia
+Sí.
+
+13:12.50
+Carlos
+Muchos usan los sistemas alarm, donde la gente tiene que hacer su colita para... Creo que en industria no hay que hacer colita.
+
+13:17.37
+Sofia
+Sí, eso te parece rústico.
+
+13:19.09
+Sofia
+A mí me parece top notch.
+
+13:25.80
+Carlos
+Está todo ahí para que... Dime, dime, dime.
+
+13:26.54
+Sofia
+¿Ah, sí?
+
+13:27.38
+Sofia
+Claro.
+
+13:28.68
+Sofia
+Yo el... Uy, perdón, sí, termina.
+
+13:30.37
+Carlos
+No, continúa.
+
+13:31.68
+Sofia
+Me estaba acordando del trade... como... trade off, no sé cómo traducir, como el...
+
+13:37.35
+Carlos
+Ah, como dice Trader.
+
+13:38.55
+Sofia
+Como el balance, o sea, sí, pues el trade-off que mucha gente menciona entre trabajar en investigación en industria y trabajar en investigación en academia, es que en la academia tienes mucha más libertad para elegir lo que tú quieres hacer, mientras que en la industria tienes que trabajar en algo que sea productivo y que te indiquen desde arriba que esto va a hacer un producto, o sea, es mucho más estrecho.
+
+13:40.18
+Carlos
+Digamos trade-off.
+
+13:40.92
+Carlos
+¿Qué?
+
+14:00.78
+Sofia
+Pero, por ejemplo, en la industria quizá tienes mucho menos de otros trabajos adyacentes, tipo labores administrativas.
+
+14:07.19
+Sofia
+O sea, como tú dices, es que si en un proyecto hay un RSI, el RSI es Project Manager, el que aplica las becas, todo.
+
+14:16.68
+Sofia
+Entonces...
+
+14:17.19
+Carlos
+A telínter los escritorios, todo tienes que hacer.
+
+14:18.75
+Sofia
+Claro, claro.
+
+14:19.05
+Sofia
+Entonces, sí, en la industria parece que solo estarías haciendo código, lo cual es muy agradable.
+
+14:25.53
+Sofia
+Creo para mucha gente, o sea, hay gente que solo le da mucha satisfacción haciendo solo cosas técnicas, pero pierdes libertad de en qué campo te quieres desarrollar, quizá.
+
+14:35.59
+Sofia
+¿Estás de acuerdo más o menos con esta misión o...?
+
+14:36.66
+Carlos
+Definitivamente.
+
+14:37.90
+Carlos
+Y yo creo que eso se traduce como riesgo.
+
+14:38.67
+Sofia
+Ajá.
+
+14:40.00
+Carlos
+O sea, justamente porque en la industria hay tanto dinero,
+
+14:42.89
+Sofia
+Ajá.
+
+14:44.56
+Carlos
+no toman decisiones arriesgadas, ¿no?
+
+14:46.40
+Carlos
+O sea, voy a, en vez de construir algo nuevo que no ha sido probado, hablas un IBM, un Microsoft, pagas algo, te dan un sistema y ya está, ¿no?
+
+14:55.70
+Sofia
+Sí Alguien confió, si alguien le dio dinero Sí, es verdad Claro Ajá Ajá
+
+14:55.82
+Carlos
+Pero en el mundo académico todo es riesgo, nada está seguro.
+
+15:00.48
+Carlos
+Alguien escribió una grant diciendo que voy a resolver el hambre mundial, le dieron, sí,
+
+15:09.20
+Carlos
+Y bueno, esa es la naturaleza de la ciencia.
+
+15:11.100
+Carlos
+Uno tiene un plan, tiene una ambición, va a tratar muchas veces, vas a fallar muchas veces, y alguna vez quizás vas a avanzar un poquito.
+
+15:21.80
+Carlos
+Y creo que en ese poquito está lo bonito de nuestra carrera, ¿no?
+
+15:24.60
+Carlos
+O sea, es algo nuevo, y nadie lo ha hecho, y si sale bien, y no es que siempre salga mal, sale bien muchas veces, contribuyes al conocimiento científico, y eso es especial.
+
+15:26.69
+Sofia
+Sí, es verdad, eso es muy bonito.
+
+15:38.83
+Sofia
+Pues muchas gracias Carlos.
+
+15:40.17
+Sofia
+Si quieres pasamos al siguiente bloque en el que queríamos hablar un poco de cómo se convierte uno en un RSI y hablar de las habilidades y un poco de educación.
+
+15:49.81
+Sofia
+Entonces, sí, quería preguntarte, hemos dicho que tanto si uno viene de la academia como de la industria, de la ciencia o del software, ¿qué habilidades crees que son importantes para quien quiera desarrollar una carrera como ARESI?
+
+16:01.02
+Sofia
+Sí.
+
+16:05.23
+Carlos
+Creo que lo importante es tener una...
+
+16:09.63
+Carlos
+No sé, bueno, lamentablemente la gran mayoría de RSCs que conozco tienen doctorado.
+
+16:15.70
+Carlos
+O sea que eres un científico calificado, tienes un papelito que dice tú eres un científico.
+
+16:20.86
+Sofia
+uh-huh okay uh-huh mm-hmm
+
+16:21.42
+Carlos
+Ahora, no creo que sea necesario, porque es un montón, cinco años quemándote las pestañas, yo no creo que eso sea necesario para ser un RSC.
+
+16:32.100
+Carlos
+Pero bueno, dicho esto, creo que es importante tener un conocimiento básico del mundo científico, ¿no?
+
+16:43.11
+Carlos
+Tienes que saber, por ejemplo, saber leer un paper, saber buscar bibliografía.
+
+16:47.63
+Carlos
+Para saber leer un paper tienes que saber un poquito de matemáticas, dependiendo del área en la que estés, un poquito de ciencia, biología, física, este tipo de cositas.
+
+16:59.38
+Carlos
+Bueno, y en el día de hoy creo que casi toda la ciencia es data-driven, es por datos.
+
+17:05.24
+Carlos
+Así que tienes que saber procesar datos, ¿no?
+
+17:08.30
+Sofia
+Claro.
+
+17:08.49
+Carlos
+A ver, tu SQL, tu SQL, tus pipelines, tu panda, si eres un Pythonista.
+
+17:15.16
+Sofia
+No, no, no.
+
+17:15.33
+Carlos
+Y NumPy, por supuesto, NumPy.
+
+17:15.76
+Sofia
+Ah.
+
+17:19.07
+Carlos
+Y en el tema del lenguaje, ¿no?
+
+17:20.27
+Carlos
+Si hay una serie de lenguajes que la ciencia prefiera, ¿no?
+
+17:23.99
+Carlos
+La gente me dice de que Fortran es bastante popular.
+
+17:27.29
+Carlos
+Hasta ahorita nunca lo he tocado, pero aparentemente Fortran es lo máximo en el mundo científico.
+
+17:31.59
+Carlos
+Pero, por ejemplo, ese tipo de cosas, ¿no?
+
+17:31.94
+Sofia
+Es muy... Sí, también va también creo por disciplinas, o sea, para cosas que son más tipo métodos numéricos, yo creo que la gente usa mucho Fortran en física, ¿no?
+
+17:43.38
+Sofia
+Simulaciones, eso parece que se usa mucho Fortran, pero es verdad que yo diría que en la mayoría de ambientes que yo me encuentro, Python es el más dominante, sí.
+
+17:50.65
+Carlos
+Sí.
+
+17:51.74
+Carlos
+O R, ¿no?
+
+17:52.98
+Sofia
+Sí, también, es verdad.
+
+17:53.18
+Carlos
+R también.
+
+17:55.86
+Sofia
+Pues sí, bueno...
+
+17:55.92
+Carlos
+Sí, y tu estadística, ¿no?
+
+17:57.78
+Carlos
+Eso sí.
+
+17:58.24
+Carlos
+Porque, o sea, la estadística, casi todo paper científico va a ser un claim.
+
+18:03.86
+Carlos
+¿Cómo se dice claim?
+
+18:04.84
+Carlos
+Una aseveración estadística tienes que saber entenderlo.
+
+18:07.82
+Sofia
+Sí, ok, ok, o sea, ¿crees que la trayectoria de un doctor, o sea, crees que un doctorado te prepara para ser como un científico y que aprendes habilidades que luego son útiles también en el campo de ARSI porque se trabaja también en investigación, ¿no?
+
+18:22.57
+Carlos
+Claro, pero igual, inclusive acá en el Turing somos conscientes de que casi la gran mayoría de gente acá tienen doctorados, pero estamos tratando de que no sea así.
+
+18:23.40
+Sofia
+Ok.
+
+18:23.48
+Sofia
+Ajá.
+
+18:29.43
+Sofia
+Ajá.
+
+18:32.83
+Sofia
+Ajá.
+
+18:32.81
+Carlos
+Porque es una barrera muy alta, o sea, hacer un doctorado es difícil y no creo que se necesite.
+
+18:40.35
+Carlos
+Tengo colegas acá muy buenos, muy capaces, que no tienen doctorado, son la minoría.
+
+18:43.82
+Sofia
+Sí.
+
+18:43.92
+Sofia
+Sí.
+
+18:43.98
+Sofia
+Sí.
+
+18:46.46
+Carlos
+Lo clave es cómo haces para aprender estas cosas sin necesidad de ir a un doctorado.
+
+18:53.71
+Carlos
+Creo que se puede.
+
+18:54.49
+Carlos
+Creo que acá en el Reino Unido hay undergraduate internships.
+
+18:58.39
+Carlos
+Inclusive con un máster ya te da bastante.
+
+19:01.30
+Sofia
+Sí, o sea, una pequeña exposición al mundo de la investigación para ver básicamente cómo son los procesos, cómo son los métodos.
+
+19:06.86
+Carlos
+Sí.
+
+19:08.22
+Sofia
+Sí, pero es verdad, por ejemplo, yo creo que uno de los beneficios de ARESI es que, y lo hemos visto también en las charlas, que hay backgrounds como carreras muy diferentes que acaban en ARESI y creo que eso beneficia muchísimo a la profesión porque hay como muchos puntos de vista diferentes
+
+19:25.94
+Sofia
+de gente que ha estudiado diferentes cosas y tiene diferentes cosas que aportar, o sea, entonces creo que eso beneficia muchísimo al trabajo final, cuantas más diversidad de opiniones haya y más diversidad de habilidades, en general el producto final tiende a ser mejor, yo diría, entonces entiendo,
+
+19:44.64
+Carlos
+Sí, definitivamente.
+
+19:46.24
+Sofia
+Claro, entiendo que el Turing tenga interés en contratar a gente con variedad de backgrounds en vez de todo el mundo PhD porque eso es como demasiado estrecho.
+
+19:57.10
+Sofia
+No sé, sí, pero es verdad que la mayoría.
+
+19:57.76
+Carlos
+Sí, definitivamente.
+
+20:00.06
+Sofia
+Sí.
+
+20:01.18
+Carlos
+Y este... Ah, lo que te iba a decir, que ya se me olvidó.
+
+20:01.30
+Sofia
+Bueno, hemos visto... Sí, perdón.
+
+20:05.08
+Sofia
+Oh, perdón.
+
+20:06.54
+Carlos
+Volverá, volverá.
+
+20:06.70
+Sofia
+Sí...
+
+20:07.22
+Carlos
+Si era importante, volverá.
+
+20:08.81
+Sofia
+Estamos hablando de lo que la mayoría es PhD, creo que sí que estoy de acuerdo.
+
+20:08.76
+Carlos
+Sí.
+
+20:12.75
+Sofia
+O sea, yo también veo eso a mi alrededor y que la diversidad de background sí que beneficia.
+
+20:16.87
+Sofia
+Por ejemplo, en mi grupo hay una persona que estudió computer science, otra persona que hizo software engineering y muchas veces se nota, o sea, esa diversidad es muy enriquecedora porque tienen cosas que aportar que a mí no me ha enseñado nadie y es un poco, he aprendido sobre la marcha como muchos aresís y como que eso, alguien que tenga...
+
+20:35.48
+Sofia
+formación reglada en eso, muchas veces tiene mucho que aportar.
+
+20:39.39
+Carlos
+Ya me acordé que te voy a decir.
+
+20:41.32
+Carlos
+Que en el Turing, casi no es mucho informático.
+
+20:44.94
+Carlos
+Soy en la minoría.
+
+20:47.44
+Carlos
+De mi pequeña encuesta, creo que la gran mayoría son físicos.
+
+20:51.04
+Sofia
+Sí, yo también veo muchos físicos porque me da la sensación de que aunque seas físico teórico o experimental acabas haciendo mucho código en ambos casos y sí, programa muchísimo, sí.
+
+21:02.18
+Sofia
+Entonces hay muchísimos físicos, sí.
+
+21:04.43
+Carlos
+Mucho data processing.
+
+21:06.18
+Sofia
+Sí, eso, eso, qué bonito.
+
+21:06.71
+Carlos
+Oh, Dios.
+
+21:07.15
+Carlos
+Procesamiento de datos.
+
+21:10.82
+Sofia
+Bueno, sí, quería también mencionar que en las charlas hemos visto esto, o sea, que la profesión de Eresi tiene unos backgrounds muy diversos, y que lo contó Riva en su charla también, que es un ejemplo súper bueno.
+
+21:21.68
+Sofia
+Riva Quiroga, que presentó en nuestro seminario, y ella empezó estudiando literatura y lengua y educación, o sea, un campo que parece bastante lejano de la programación.
+
+21:32.30
+Sofia
+Y su camino es muy interesante.
+
+21:33.76
+Sofia
+Yo recomiendo a la gente que por lo menos mire sus slides en la página web.
+
+21:37.04
+Sofia
+Y también hemos escuchado de eso, muchos ponentes con background en física que ya hemos mencionado.
+
+21:41.09
+Sofia
+O sea, Lupe, Jaime y Jesús creo que todos tenían background en física.
+
+21:45.27
+Sofia
+Luego algunos en background de biología.
+
+21:48.31
+Sofia
+como Camilo y Juliana, que ambos, eso es menos común, pero también hay algún ejemplo.
+
+21:53.43
+Sofia
+Y bueno, neurociencia, Cecilia venía de la neurociencia y de ingeniería también alguna gente como Felipe y Jenny también tenían background de ingeniería, yo también soy ingeniera.
+
+22:01.40
+Sofia
+Entonces, es bastante diverso dentro de las ciencias, pero sí.
+
+22:06.15
+Carlos
+Sí, creo que de eso viene.
+
+22:06.28
+Sofia
+Sí.
+
+22:07.71
+Carlos
+O sea, las ciencias son diversas.
+
+22:09.95
+Carlos
+Y hay un esfuerzo en nuestro gobierno unido de que todo sea multidisciplinario, ¿no?
+
+22:14.56
+Carlos
+Energiente de muchos backgrounds.
+
+22:15.90
+Carlos
+Y creo que eso se traduce en nuestra profesión.
+
+22:18.84
+Carlos
+Si la ciencia es diversa, los ingenieros de investigación van a ser diversos también.
+
+22:23.04
+Sofia
+Sí, exacto.
+
+22:24.08
+Sofia
+Y bueno, sí, hemos dicho ciencias, pero bueno, que Riva estudió literatura y educación y lengua, que es más humanidades y aún así hay un gran impulso hacia las humanidades digitales.
+
+22:33.27
+Sofia
+O sea, es que hay software en todas partes y en todas partes de investigación se necesita hacer software.
+
+22:35.08
+Carlos
+Gracias.
+
+22:36.24
+Carlos
+Gracias.
+
+22:39.59
+Sofia
+Cool.
+
+22:40.58
+Sofia
+Bueno, también queríamos hablar un poco del papel del idioma, que para nosotros lo discutimos mucho también en las charlas.
+
+22:47.56
+Sofia
+Sabemos que muchos recursos de aprendizaje para programación y desarrollo de software están en inglés.
+
+22:51.96
+Sofia
+Entonces te quería preguntar si tú crees que esto es una barrera para que más ingenieros de Latinoamérica den el salto al mundo a la ESI.
+
+22:59.68
+Carlos
+Eso no estoy seguro, pero cuando yo estudiaba, hace ya décadas en la universidad, mira las canas, mira las canas.
+
+23:08.49
+Sofia
+Pero tú eres joven, Carlos.
+
+23:12.33
+Sofia
+no se ven ajá ajá sí ok
+
+23:15.87
+Carlos
+La gente, cuando yo estudiaba, la gente que sabía inglés, con la fluidez como para leer un libro o escuchar una charla, era la minoría.
+
+23:26.13
+Carlos
+Y o sea, saber inglés era un privilegio.
+
+23:30.25
+Carlos
+Ahora, creo que el día de hoy, bueno, aquí hablo del contexto peruano, que es el que conozco más, es un poquito menos, pero aún así es bastante.
+
+23:42.98
+Carlos
+Y eso es algo bueno de que a veces discrepo con Diego, ¿no?
+
+23:47.70
+Carlos
+Pero yo creo que el idioma no debería ser un obstáculo para ser un informático capaz.
+
+23:54.59
+Sofia
+Sí, yo estoy de acuerdo con eso y creo que en verdad, Diego, también.
+
+24:01.42
+Sofia
+A mí me parece una pérdida para todos los lados.
+
+24:06.88
+Sofia
+Los hablantes de inglés no deberían circunscribirse solo a su hablante de inglés.
+
+24:10.62
+Sofia
+Hay muchas cosas interesantes y lo vemos un montón en las charlas, que cuando viene gente a presentar vemos gente que se acerca a la profesión de Aresí con mucha creatividad en otros contextos muy diferentes y eso es muy interesante de ver.
+
+24:13.00
+Carlos
+ok
+
+24:21.17
+Sofia
+Por ejemplo, vimos estas iniciativas de Expantia
+
+24:24.20
+Sofia
+con Mauro y de Tabular con Riva, que son como una especie de freelance, RSC freelance.
+
+24:31.21
+Sofia
+Y eso en Reino Unido sería mucho más difícil que emergiera porque la profesión de RSC existe dentro del ámbito académico.
+
+24:37.97
+Sofia
+Y creo que...
+
+24:41.88
+Sofia
+nos perderíamos ese tipo de novedad innovaciones si no contactamos con otros grupos que hablen otro idioma y estén en otros contextos entonces es enriquecedor yo creo y además en general los grupos de Aresí suelen tener gente que habla varios idiomas ajá
+
+24:50.36
+Carlos
+Sí, sí.
+
+24:50.68
+Carlos
+Ese es el tema, ¿no?
+
+25:00.57
+Carlos
+O sea, creo que el punto de Diego era de que todo sería ideal si todos hablaran inglés.
+
+25:06.95
+Carlos
+Porque es la lengua franca del mundo y es la lengua franca de la ciencia y de la informática.
+
+25:12.38
+Sofia
+Uh-huh.
+
+25:12.52
+Sofia
+Uh-huh.
+
+25:12.66
+Sofia
+Uh-huh.
+
+25:13.69
+Carlos
+Pero...
+
+25:15.63
+Carlos
+al menos en mi parte, mi esquinita del mundo, va a demorar hasta que lleguemos a, no sé, pues como Alemania, ¿no?
+
+25:23.78
+Carlos
+O creo que Holanda, que la gran mayoría hablan inglés con fluidez.
+
+25:27.90
+Carlos
+Y creo que definitivamente hay que trabajar en eso, tenemos que darle a la gente inglés.
+
+25:32.62
+Carlos
+Pero mientras eso pasa, y sospecho que van a ser en países como Perú, décadas.
+
+25:39.09
+Carlos
+La gente tiene un idioma, es un idioma hermosísimo, así, y
+
+25:44.06
+Sofia
+Nos gusta, nos gusta.
+
+25:45.56
+Carlos
+No debería ser un impedimento, creo yo, hablar castellano para ser un ingeniero capaz.
+
+25:49.18
+Sofia
+Sí, yo... Sí, últimamente creo parecido, bueno, esto hemos hablado varias veces también, que estaría genial que aprender inglés de forma fluida no sea un requisito para programar.
+
+26:03.88
+Sofia
+O sea, estaría genial que hubiera diferentes entradas al mismo sector.
+
+26:09.51
+Sofia
+O sea, quizá tú no hablas inglés
+
+26:11.26
+Sofia
+muy fluido, pero si sabes programar y a partir de ahí te metes en la comunidad open source, empiezas a hablar más inglés, empiezas a mejorar y a programar más también y al final acabas en esta profesión.
+
+26:21.30
+Sofia
+Sin requerir primero aprender inglés perfecto y luego meterte en el mundo de la programación.
+
+26:25.69
+Sofia
+O sea, me parece, a mí me da como esperanza que haya varias entradas, no solo una especie de embudo pasando todos por el inglés.
+
+26:34.88
+Sofia
+No sé.
+
+26:36.15
+Carlos
+Este es un tema meramente irracional, yo no tengo alguna clasificación, pero a mí me da mucha, mucha pena que no pueda hablar de mi profesión en castellano.
+
+26:42.65
+Sofia
+Ajá.
+
+26:47.49
+Carlos
+Y lo que vemos en charlas RSC todas las veces es que es difícil ver de informática en castellano.
+
+26:52.92
+Sofia
+Ajá.
+
+26:53.35
+Carlos
+Es difícil.
+
+26:53.76
+Sofia
+Sí.
+
+26:54.27
+Carlos
+No sé cómo decir pipeline.
+
+26:56.39
+Carlos
+No sé cómo decir trade-off.
+
+26:56.78
+Sofia
+Pero... Ya.
+
+26:57.80
+Carlos
+Sí, sí, sí.
+
+26:59.34
+Sofia
+A mí eso no me molesta mucho.
+
+27:00.92
+Sofia
+Me parece como... Me hace gracia que algunas palabras... Sí, sí, vengan del inglés y hayan... Como lo de Rack.
+
+27:07.02
+Sofia
+¿Te acuerdas cuando fue lo del clúster?
+
+27:09.26
+Sofia
+Alguien estaba presentando un...
+
+27:10.86
+Carlos
+Estante le dijeron.
+
+27:12.51
+Sofia
+Sí, era como armario.
+
+27:15.59
+Sofia
+Me hace mucha gracia.
+
+27:17.47
+Sofia
+Pero sí, lo entiendo, lo entiendo.
+
+27:18.88
+Sofia
+O sea, sí, entiendo lo que quieres decir.
+
+27:22.66
+Carlos
+Sí, bueno, una palabrita por aquí y por acá, ¿no?
+
+27:24.69
+Carlos
+Este, no sé, pues el francés es laissez-faire, ese tipo de cosas, ¿no?
+
+27:27.78
+Sofia
+Sí.
+
+27:27.95
+Carlos
+Pero la gran mayoría de speakers, cuando les dijimos, oye, habla de tu carrera en castellano, no es fácil para nadie.
+
+27:35.84
+Sofia
+Sí.
+
+27:35.76
+Carlos
+No es fácil para mí tampoco, y creo que es un tema de cambio.
+
+27:37.30
+Sofia
+Sí, es difícil.
+
+27:39.33
+Sofia
+Yo siento que hablo un español extraño, porque de repente estás traduciendo del inglés al español.
+
+27:46.67
+Sofia
+Pero bueno, yo qué sé, es que en realidad, si es que al final trabajas esta profesión, probablemente los dos idiomas van a coexistir en tu ámbito de trabajo, de una manera o de otra, y sí, no sé.
+
+28:01.43
+Carlos
+Tal vez deberemos, este, embrace, ¿cómo se dice en castellano?
+
+28:05.68
+Carlos
+Adoptar el Spanglish, ¿no?
+
+28:07.32
+Sofia
+A mí el Spanglish me gusta.
+
+28:07.34
+Carlos
+Como el idioma de la informática en Latinoamérica.
+
+28:10.94
+Sofia
+Sí, como en Miami que hablan muchísimo Spanglish también.
+
+28:13.10
+Carlos
+Gracias.
+
+28:13.49
+Sofia
+Me encanta oírlo.
+
+28:17.93
+Sofia
+Pues si pudieras hablar con un estudiante que es brillante en programación pero quizá tiene un poco de miedo que su nivel de inglés no sea suficiente para trabajar como Aresí, ¿tú qué le recomendarías?
+
+28:27.64
+Carlos
+A ver, yo ahí sí creo que hay un tema de inseguridad.
+
+28:31.08
+Carlos
+No sé si será un tema latinoamericano o iberoamericano, pero mucha gente que conozco, en Perú al menos, quieren hablar perfecto antes de lanzarse y hablar con un, por ejemplo, con un angloparlante.
+
+28:44.98
+Sofia
+Sí.
+
+28:46.04
+Carlos
+Y hay todo este estrés de no tengo que tener la pronunciación perfecta y este...
+
+28:52.08
+Carlos
+Pero cuando vas a una ciudad como Londres, que es bastante diversa, vas a ver, hay un montón de acentos, unos más legibles que otros.
+
+29:00.84
+Carlos
+Inclusive dentro del mundo angloparlante, un escocés o un galés o un irlandés hablan diferente.
+
+29:08.75
+Carlos
+Y creo que ese es un beneficio de que el inglés es la lengua franca del mundo, que como todo el mundo lo habla, hay cierta tolerancia para los niveles de...
+
+29:20.78
+Carlos
+de fluidez que uno tenga, ¿no?
+
+29:22.49
+Sofia
+Sí.
+
+29:22.84
+Carlos
+Ahora, hay un límite mínimo, sí, pero con tal que pases eso, la gente te va a entender, y creo que... Vas a saber si te entienden o no las zonas de la piscina.
+
+29:33.71
+Sofia
+Sí, sí, efectivamente.
+
+29:34.32
+Carlos
+Sí, sí.
+
+29:34.83
+Sofia
+Y yo creo que Londres es verdad que es un caso en el que se ve mucha diversidad de acentos, entonces yo como persona con acento español, de persona hispanohablante, pues me siento muy acogida porque es que todo el mundo tiene acento, es que la voz que te llama en el andén para meterte en el metro tiene acento.
+
+29:52.71
+Sofia
+Entonces como, pues te sientes muy acogido.
+
+29:55.81
+Sofia
+Y sí que noto también, por ejemplo, en la academia, en las conferencias científicas y tal, también hay mucha diversidad de acento y cuando yo
+
+30:03.08
+Sofia
+Yo siento que cuando oigo a alguien que hace una pregunta en una conferencia con acento, yo me siento más cómoda también para hacer una pregunta.
+
+30:09.46
+Sofia
+O sea, porque... Ay, Carlos, no sé si te perdí.
+
+30:15.60
+Carlos
+Uy, ya estamos de vuelta, estamos de vuelta.
+
+30:16.77
+Sofia
+Es como en la tele.
+
+30:18.46
+Carlos
+Pequeño glitch, pequeño glitch.
+
+30:21.51
+Carlos
+Esto es en vivo.
+
+30:22.85
+Carlos
+Cosas pasan, cosas pasan.
+
+30:25.77
+Sofia
+No sé qué está contando.
+
+30:26.83
+Sofia
+Ah, lo de la diversidad de acentos, que sí, me parece, creo que no se habla suficiente de la diversidad de acentos.
+
+30:28.15
+Carlos
+Ya.
+
+30:31.90
+Sofia
+A mí también me parece enriquecedora y me parece muy bonito ver cómo la gente pronuncia diferentes palabras, o sea, la misma palabra en inglés de diferentes formas según el campo de fonemas que tengan en la mente, no sé cómo explicarlo, me parece bonito eso.
+
+30:44.48
+Sofia
+Y creo que no hablamos suficiente de lo enriquecedor también que es la diversidad de acentos.
+
+30:50.32
+Carlos
+No, no, no.
+
+30:50.64
+Sofia
+Es verdad.
+
+30:50.67
+Carlos
+Sigue, sigue, sigue.
+
+30:52.20
+Sofia
+Y creo que tienes muchísima razón, no hay que tener vergüenza.
+
+30:54.56
+Sofia
+O sea, creo que hay mucha gente que le frena porque los acentos también están asociados como a cosas de clase y bueno, es difícil.
+
+31:05.57
+Sofia
+Y creo que hay que estar un poco más tranquilo y aceptar los acentos como que son algo bonito.
+
+31:12.15
+Sofia
+Y también lo que has dicho, perdón, sí.
+
+31:15.69
+Sofia
+Es que me ha recordado una cosa que creo que me comentó Riva.
+
+31:19.09
+Sofia
+Que, por ejemplo, me dijo que en Latinoamérica a veces hay conferencias en español y portugués donde la gente habla como una especie de portuñol.
+
+31:28.93
+Sofia
+Yo tengo una amiga también española que fue a Brasil y presentó en portuñol una presentación de no sé si era una hora.
+
+31:34.58
+Carlos
+¡Wow!
+
+31:34.95
+Sofia
+Y a la gente no le da vergüenza.
+
+31:36.32
+Sofia
+O sea, ¿sabes?
+
+31:36.65
+Sofia
+Quiero decir, es como si fuera un ambiente familiar en el que no te da vergüenza hablar con acento o no hablar portugués porque al final... ¿Sabes?
+
+31:44.26
+Sofia
+Entonces es como, ¿por qué no podemos trasladar eso un poco al inglés?
+
+31:46.90
+Sofia
+O sea...
+
+31:48.46
+Sofia
+No que te pongas a hablar en español porque creo que será más difícil que alguien te entienda, pero no tener vergüenza de tener acentos y al final la gente se entiende.
+
+31:55.99
+Sofia
+O sea... Mmm... Mmm...
+
+31:56.73
+Carlos
+Sí, eso es... No sé qué será.
+
+32:00.75
+Carlos
+Creo que es porque, bueno, en Sudamérica los países son grandes y la gente no sale mucho, ¿no?
+
+32:05.91
+Carlos
+Me parece.
+
+32:07.30
+Carlos
+Algo que me pasó a mí cuando vine acá, y no sé si te pasó a ti, es de que al inicio me chocaba cuando la gente no entendía mi acento.
+
+32:15.28
+Carlos
+Y bueno, ahora es de que no hay mucho peruano acá en Londres, somos una minoría.
+
+32:20.08
+Sofia
+Bueno, pero de repente estáis todos... Hay un montón de peruanos en las charlas.
+
+32:21.90
+Carlos
+Eso sí, eso sí, la charla sí.
+
+32:26.49
+Carlos
+Pero sí, o sea, tenía que...
+
+32:29.46
+Carlos
+no sé, aceptar que la gente cuando escuche mi inglés va a ser la primera vez que escuchen un acento como el mío, que al inicio no me van a entender, está bien, hablo un poquito más despacio y te das cuenta conforme pase el tiempo, la gente aprende.
+
+32:36.76
+Sofia
+Sí.
+
+32:39.10
+Sofia
+Hmm.
+
+32:40.42
+Sofia
+Hmm.
+
+32:46.69
+Sofia
+Sí, sí.
+
+32:47.89
+Sofia
+Y superar un poco que no es un problema tuyo.
+
+32:51.90
+Sofia
+En realidad, si alguien no te entiende el acento, el problema es tanto del emisor como el receptor.
+
+32:56.44
+Sofia
+O sea, el receptor tampoco está acostumbrado a cómo estás tú pronunciando.
+
+32:59.94
+Sofia
+O sea, creo que muchas veces nos ponemos toda la responsabilidad de nosotros en plan, ay, nadie entiende mi acento.
+
+33:06.04
+Sofia
+No sé, alguien que quizá de un pueblo de Escocia no ha salido nunca de ahí, es normal que no haya oído tu acento y no te entienda, pero que la responsabilidad no es toda tuya.
+
+33:14.39
+Sofia
+Bastante que has aprendido otro idioma.
+
+33:14.32
+Carlos
+Así es, así es.
+
+33:16.41
+Sofia
+Sí, creo que está bonito hablar de esto también.
+
+33:16.44
+Carlos
+Exacto, somos bilingües.
+
+33:20.39
+Carlos
+Pero en ciudades como Londres, o me imagino que en Nueva York, tal vez, la gente tiene acento y está bastante aceptado.
+
+33:29.89
+Carlos
+En la ciencia creo que es bastante aceptado en general.
+
+33:32.42
+Sofia
+Sí, sí.
+
+33:33.36
+Sofia
+Por ejemplo, a mí me parece que los hablantes de chino, siendo el chino y el inglés tan diferente, o el mandarín y el inglés tan diferente, tiene muchísimo mérito que estén haciendo presentaciones en inglés...
+
+33:46.80
+Sofia
+Y muchas veces algunos tienen acento y la gente presenta igual, todo el mundo escucha igual.
+
+33:52.30
+Sofia
+Nadie va a pensar esta persona es menos válida o lo que está diciendo es menos válido porque tenga acento.
+
+33:57.54
+Carlos
+Sí, definitivamente.
+
+34:00.34
+Sofia
+Entonces eso me parece que es un poco welcoming.
+
+34:03.28
+Carlos
+Sí, sí, la ciencia ha avanzado bastante.
+
+34:10.93
+Sofia
+Para cerrar un poco el tema de este idioma,
+
+34:15.08
+Sofia
+En particular hablando sobre el código, yo creo que el código es más cercano al lenguaje simbólico que al lenguaje natural de lo que puede parecer a primera vista.
+
+34:22.06
+Sofia
+Me da la sensación de que si aunque tú no hables inglés puedes programar porque te sabes que la palabra for, in y if y estas palabras claves son como lenguaje simbólico en realidad.
+
+34:27.34
+Carlos
+Gracias.
+
+34:32.24
+Sofia
+Entonces mi impresión es que las barreras lingüísticas afectan más al acceso a comunidades de profesión, por ejemplo la comunidad de Areci.
+
+34:40.12
+Sofia
+¿Tú crees que esto es verdad?
+
+34:41.78
+Sofia
+¿Qué opinas al respecto?
+
+34:46.09
+Carlos
+Yo creo que el lenguaje de programación está, sí, es más simbólico, pero tampoco está tan alejado del lenguaje natural, me parece.
+
+34:53.26
+Sofia
+Qué bueno, sí.
+
+34:53.82
+Carlos
+O sea, no sé, pues los nombres de funciones, uno trata que sean verbos, ¿no?
+
+34:57.04
+Carlos
+Nombres de variables, que sean sustantivos.
+
+35:00.84
+Carlos
+Pero, sí, o sea, no debería ser una barrera para juntarte con tus colegas, ¿no?
+
+35:09.88
+Carlos
+Al menos a nivel local.
+
+35:11.80
+Carlos
+Bueno, en el día de llavero,
+
+35:14.69
+Carlos
+Sí había una comunidad de locales muy activas, ¿no?
+
+35:17.79
+Carlos
+Este, ya veros de Lima, de Perú, y ahí hablamos principalmente español, ¿no?
+
+35:23.97
+Sofia
+Sí.
+
+35:24.03
+Sofia
+Sí.
+
+35:24.71
+Carlos
+O sea, para dar el salto internacional, sí, el inglés es este... Pero también está al otro lado, ¿no?
+
+35:31.03
+Carlos
+O sea, este, podría ser una comunidad latinoamericana y ahí podríamos hablar inglés.
+
+35:37.85
+Carlos
+O sea, creo que no se debería tomar ventaja, al menos en el español, de que lo hablamos tantas personas en todo el mundo.
+
+35:45.01
+Carlos
+No sé, pues, creo que si es una conferencia, no sé, latinoamericana de informática, mandar papers en castellano debería ser.
+
+35:51.57
+Carlos
+Como los brasileños, ¿no?
+
+35:53.16
+Carlos
+Tienen un montón de conferencias en portugués y ellos mandan sus papers en portugués.
+
+35:56.72
+Carlos
+O sea... Sí.
+
+35:57.96
+Sofia
+Claro, sí, pero es que son un montón de gente.
+
+35:59.80
+Sofia
+Sí, sí, sí, es verdad.
+
+36:00.11
+Carlos
+Sí.
+
+36:02.08
+Sofia
+Bueno, y ahora que mencionas esto, sabemos que hay un grupo de RSC de profesión de Chile, RSC Chile, en el que está involucrada Riva Quiroga, y también hace poco ha salido RSC Argentina,
+
+36:16.15
+Sofia
+Entonces, bueno, están emergiendo comunidades de profesión cuyo lenguaje de trabajo es en español en esta región, es que me parece que está muy bien para que la gente pueda empezar a conectar.
+
+36:27.03
+Sofia
+¿Tú recuerdas también de unirte a estos grupos de Java y que cambia un poco la perspectiva?
+
+36:33.100
+Sofia
+Porque siento que cuando empiezas a ser un grupo es como que es mucho más acogedor el trabajo.
+
+36:37.93
+Carlos
+Sí, de hecho.
+
+36:39.12
+Sofia
+¿Sentiste algo así?
+
+36:40.87
+Carlos
+Sí, claro, claro, es muy humano, ¿no?
+
+36:42.36
+Carlos
+Buscas tu tribu.
+
+36:43.58
+Sofia
+Sí.
+
+36:44.88
+Carlos
+Y creo que los programadores son bastante tribales, ¿no?
+
+36:47.22
+Carlos
+Los IMAX.
+
+36:48.70
+Carlos
+¿Cuál es el otro?
+
+36:48.86
+Sofia
+Sí.
+
+36:49.56
+Carlos
+BIM.
+
+36:50.44
+Sofia
+Ah, sí, es verdad.
+
+36:51.66
+Sofia
+Oh my God.
+
+36:52.63
+Sofia
+Solo sé cómo salir.
+
+36:54.30
+Carlos
+Sí, yo ni esto.
+
+36:56.39
+Sofia
+Mejor.
+
+36:58.61
+Sofia
+Cool.
+
+37:02.25
+Sofia
+Bueno, el siguiente bloque de preguntas es sobre el papel de RSI en Latinoamérica.
+
+37:09.14
+Sofia
+En episodios anteriores de este podcast he hablado sobre cómo el rol de RSI está emergiendo en países de Asia o de África.
+
+37:14.90
+Sofia
+Y también en las charlas hemos escuchado perspectivas súper interesantes sobre cómo está emergiendo esta profesión en Sudamérica, como hemos mencionado antes.
+
+37:21.79
+Sofia
+Mauro Lepore nos contó sobre Xpantia, o Riva Quiroga sobre Tabular y también sobre el trabajo en RSI Chile.
+
+37:29.92
+Sofia
+que son como propuestas innovadoras que es muy interesante escuchar porque aquí en el Reino Unido quizás en el contexto del Reino Unido no escuchamos sobre este tipo de alternativas.
+
+37:40.21
+Sofia
+Bueno, también en una de las primeras sesiones escuchamos a Pablo, que representa en el Reunido el caso del RSI no oficial.
+
+37:47.98
+Sofia
+Y esto como para resumir un poco los diferentes tipos de RSI que hemos visto y también en diferentes geografías.
+
+37:55.04
+Sofia
+¿Tú cómo ves el panorama para los ingenieros de software de investigación en Perú, en América Latina hoy en día?
+
+38:00.73
+Sofia
+¿Crees que hay muchos RSI no oficiales, por ejemplo?
+
+38:05.19
+Carlos
+Sospecho que la gran mayoría son no oficiales, ¿no?
+
+38:09.04
+Carlos
+Pero creo que más va por el lado de que la ciencia en América Latina está un poquito detrás de la ciencia en el primer mundo.
+
+38:15.92
+Carlos
+Básicamente es eso.
+
+38:17.20
+Carlos
+Pero tenemos un montón de powerhouses, Brasil, Argentina, Chile, el mismo México, ¿no?
+
+38:25.42
+Carlos
+Pero en otras partes sí, la ciencia está un poquito detrás, ¿no?
+
+38:30.72
+Carlos
+Y creo que esa es la consecuencia, porque al final somos ingenieros que trabajamos en ciencia.
+
+38:36.04
+Carlos
+Si la ciencia no está tan desarrollada, pues este...
+
+38:39.50
+Carlos
+no hay tanto espacio.
+
+38:39.64
+Sofia
+Sí Pero bueno, la ventaja también es que hay muchísimos ingenieros, me da a mí la sensación y muy bien entrenados, no sé cómo decirlo con muy buenos skills ¿Te da esa impresión o no?
+
+38:51.69
+Carlos
+Creo que hay bastante potencial, hay un montón de potencial.
+
+38:55.59
+Carlos
+Pero si eres un PI, un investigador principal que te han dado un dinerito para tu grant, ¿cómo se dice grant en castellano?
+
+39:03.66
+Carlos
+Para tu proyecto, lo voy a llamar proyecto.
+
+39:04.68
+Sofia
+No sé, financiación.
+
+39:06.04
+Sofia
+Ah, sí, vale, vale.
+
+39:06.90
+Sofia
+Ajá.
+
+39:07.28
+Carlos
+Entonces, tú preferirías contratarte un investigador postdoctoral que a un informático, ¿no?
+
+39:14.34
+Carlos
+O sea, hay un tema de prioridades.
+
+39:16.44
+Carlos
+Inclusive acá en el Reino Unido, creo que no son la gran mayoría de proyectos que contratan gente como tú y yo, ¿no?
+
+39:23.48
+Carlos
+RSC.
+
+39:23.70
+Sofia
+Sí, sí, es verdad.
+
+39:26.30
+Carlos
+Sí, creo que esa es la limitante.
+
+39:28.10
+Sofia
+Sí.
+
+39:30.08
+Carlos
+Pero creo que está mejorando, ¿no?
+
+39:30.44
+Sofia
+Sí.
+
+39:31.30
+Carlos
+O sea, iniciativas como la de arriba, creo que en Brasil también ya tienen su capítulo RSI, la cosa está cambiando, ¿no?
+
+39:37.98
+Carlos
+Porque creo que hay un reconocimiento de la ciencia en general, o sea, el software soporta a la ciencia, como dices en el inicio, buen software, buena ciencia.
+
+39:49.30
+Carlos
+Si no profesionalizamos el desarrollo de software en el mundo científico, hay un gran riesgo de que la ciencia no sea buena.
+
+40:00.04
+Sofia
+Sí, o que no avance suficientemente rápido o sí, sí, que no sea de calidad.
+
+40:03.13
+Carlos
+No.
+
+40:05.29
+Sofia
+Sí, qué bueno.
+
+40:07.59
+Sofia
+Sí, bueno, también sobre iniciativas que están emergiendo en la región de Latinoamérica, también RIVA está participando de la organización de una conferencia que creo que va a ser toda en español y híbrida.
+
+40:20.72
+Sofia
+que se va a anunciar ahora bueno, quizá cuando salga este podcast ya ha sido anunciada incluiremos detalles en la descripción pero sí, se llama Aresi Latam y va a ser como híbrida en agosto y nada, en español y dar la oportunidad a la gente que trabaja en esta profesión aunque no sea oficialmente como Aresi de contactar y hacer un poquito de comunidad que creo que puede estar súper bien
+
+40:45.94
+Carlos
+Sí, definitivamente, porque hay gente haciendo informática y ciencia.
+
+40:50.60
+Carlos
+Hay.
+
+40:50.75
+Sofia
+Sí, sí.
+
+40:51.32
+Carlos
+En Latinoamérica hay.
+
+40:53.04
+Carlos
+Probablemente no tengan el nombre de REC o investigador ingeniero de software en investigación, pero están haciendo.
+
+40:58.66
+Carlos
+Y qué chévere esta iniciativa, juntarse siempre es bueno, es bonito.
+
+41:06.88
+Sofia
+El último bloque de preguntas es sobre nuestro seminario, las charlas RSI en español.
+
+41:12.96
+Sofia
+Entonces quería preguntarte sobre cómo surgió esta idea y por qué te decidiste hacerlo.
+
+41:21.01
+Carlos
+Ah, bueno, tú lo sabes mejor que yo, pero puedo contar la historia.
+
+41:24.03
+Sofia
+Sí.
+
+41:24.09
+Sofia
+Sí.
+
+41:24.15
+Sofia
+Sí.
+
+41:25.65
+Carlos
+Sí, pues creo que en Europa el Reino Unido está un poquito más adelante en el tema que es RSC, ingenieros hombres de investigación.
+
+41:32.22
+Carlos
+Y bueno, Sofía y yo fuimos a la conferencia de RSC del Reino Unido, fue el 2024 creo, ¿no?
+
+41:42.39
+Carlos
+Sí, y bueno, sí, hay... Es una comunidad muy bonita, me parece, que se preocupa en los temas importantes.
+
+41:48.76
+Carlos
+Y uno de los temas que tenemos en... Creo que la informática y ciencia es el tema de diversidad.
+
+41:53.94
+Carlos
+O sea, lamentablemente, en ciencia y en informática no hay diversidad.
+
+41:55.39
+Sofia
+mhm mhm mhm
+
+42:00.72
+Carlos
+Y es algo que se debería mejorar.
+
+42:02.50
+Carlos
+En RSECon, en esta conferencia, había un conversatorio, charlas, seminarios sobre diversidad.
+
+42:10.05
+Carlos
+Y bueno, pues saltó el tema de que yo creo que la gente que habla español, al menos en el Reino Unido, son una minoría.
+
+42:17.75
+Carlos
+Tal vez globalmente.
+
+42:19.99
+Carlos
+Y como simplemente dije, hay un tema de diversidad, que faltan hispanohablantes.
+
+42:24.97
+Carlos
+Y bueno, eso fue todo lo que hice.
+
+42:27.87
+Carlos
+De ahí tú, Sofía, me contactaste y bueno, salió la iniciativa, ¿no?
+
+42:30.69
+Sofia
+A ver, déjame ver que lo vea en nuestra página.
+
+42:35.65
+Carlos
+¿Cuántas ediciones vamos ya, Sofía?
+
+42:43.59
+Sofia
+Bueno, por lo menos llevamos un año y pico, ¿no?
+
+42:46.57
+Sofia
+Empezamos en, creo que en noviembre... Llevamos un año y... Sí, empezamos en noviembre de 2024 o algo así.
+
+42:55.49
+Sofia
+O sea que no nos va mal.
+
+42:55.49
+Carlos
+Fíjense, casi ninguna.
+
+42:57.22
+Sofia
+Y hemos tenido pocas faltas todos los meses.
+
+43:00.82
+Sofia
+Sí.
+
+43:00.88
+Sofia
+Sí.
+
+43:01.08
+Carlos
+Y algo que debo decir es que organizar una charla no es tan difícil, pero tampoco es tan fácil.
+
+43:09.02
+Carlos
+Pero hay un problema que no tenemos, es que hay un montón de speakers, de hablantes que podemos contactar.
+
+43:15.21
+Carlos
+Hay un montón de gente de Latinoamérica o de España
+
+43:20.16
+Carlos
+que están haciendo ciencia informática al más alto nivel y afortunadamente tienen la cortesía de venir a nuestro humilde seminario.
+
+43:27.40
+Carlos
+¿Sí?
+
+43:27.95
+Sofia
+Sí, para nosotros es un lujo.
+
+43:29.00
+Carlos
+¿Sí?
+
+43:29.89
+Sofia
+A mí me parece que oímos de unas presentaciones buenísimas, unos temas súper interesantes en un contexto diferente, de gente súper muy preparada y no sé, me parece, me encanta, a mí me encanta.
+
+43:41.71
+Carlos
+Sí, sí, sí.
+
+43:42.28
+Carlos
+Bueno, lo único que... Se lo ponemos difícil porque nuestro único requisito es que hablen castellano.
+
+43:47.72
+Carlos
+Más del 90% de la presentación, pero... Sí, sí, sí.
+
+43:51.50
+Sofia
+Deberíamos ser más estrictos, como tú dices, si dicen multithreading...
+
+43:58.37
+Carlos
+Castigo, castigo.
+
+44:00.42
+Sofia
+Tomate o algo.
+
+44:01.44
+Sofia
+Sí.
+
+44:01.52
+Sofia
+Cool.
+
+44:04.85
+Carlos
+Me parecía muy chévere.
+
+44:06.52
+Carlos
+Bueno, ya el seminario es virtual, abierto, y toda la gente que quiera unirse son más que bienvenidos.
+
+44:14.81
+Sofia
+Sí, luego también incluyo más detalles en el cierre.
+
+44:19.41
+Sofia
+Sí, y por último también quería comentar, bueno, en otro episodio del podcast, Jotipogal mencionó, como en muchas partes del mundo, eso, el término aresino es un cargo oficial y la gente trabaja con otros títulos, esto ya lo hemos mencionado, como desarrollador o programador, sin saber que forman parte de esta comunidad global.
+
+44:32.68
+Carlos
+¿Qué?
+
+44:37.82
+Sofia
+También Jesús Elizari en su charla mencionó que cuando empezó su puesto no sabía ni que era un Aresí, o sea, conoció a Diego y le dijo, ah, o sea, que yo soy un Aresí, ok, que esto pasaba mucho.
+
+44:46.18
+Carlos
+Definitivamente.
+
+44:48.48
+Sofia
+Entonces estaba pensando qué actividades o qué prácticas crees que pueden ayudar a conectar mejor a la comunidad hispanohablante con esta disciplina, o sea, tipo, supongo que nosotros esperamos que las charlas sirvan para eso, ¿crees que hay alguna otra cosa?
+
+45:02.52
+Carlos
+Creo que es eso, ¿no?
+
+45:04.36
+Carlos
+Básicamente hacer comunidad, awareness, como sea que se diga en español.
+
+45:10.10
+Sofia
+¿Cómo se dice?
+
+45:12.19
+Sofia
+Ser consciente.
+
+45:13.81
+Sofia
+Ajá.
+
+45:14.05
+Sofia
+Sí.
+
+45:14.26
+Carlos
+Por ejemplo, me acuerdo de que en Perú era el ingeniero de sistemas o el informático y de repente vino la novedad de que la gente que hace informática debería ser ingeniero de software.
+
+45:14.37
+Sofia
+Ajá.
+
+45:20.11
+Sofia
+Ajá.
+
+45:27.99
+Carlos
+Y poquito a poquito, poquito a poquito la gente empezó a identificarse, no, yo soy ingeniero de software, ingeniero de software, ahora incluso ya hay pregrados que son ingeniería de software o maestría de ingeniería de software.
+
+45:36.06
+Sofia
+Ajá.
+
+45:38.78
+Carlos
+Fue algo, creo yo, orgánico, tal vez influenciado por los vecinos del norte, Estados Unidos.
+
+45:41.22
+Sofia
+Sí.
+
+45:44.83
+Carlos
+Algo así sería ideal que pase, que la gente en ciencia empiece a contratar, trabajar más con ingenieros de software de investigación y poquito a poco la gente se va a dar cuenta de que es una alternativa.
+
+46:00.28
+Carlos
+Si eres un informático, puedes trabajar en muchos lados, uno de esos lados es haciendo ciencia.
+
+46:05.69
+Sofia
+Sí, buenísimo.
+
+46:08.41
+Sofia
+Pues muchas gracias por este ratito, Carlos, y muchas gracias a Peter por darnos este espacio, muchas gracias a nuestros oyentes por escucharnos, y esperamos que esta conversación haya servido para conocer mejor cómo es esta profesión, y quizás para algunos para practicar un poquito de español también.
+
+46:23.68
+Sofia
+Nos gustaría recordar que si os interesa conocer más sobre este mundo, estáis todos invitados a las charlas ABC, nuestro seminario mensual en español sobre ingeniería de software para la investigación.
+
+46:33.11
+Sofia
+Tiene lugar en persona en Londres y también online un lunes de cada mes a las 4 de la tarde, horario Reino Unido.
+
+46:40.19
+Sofia
+Y podéis encontrar más detalles sobre las siguientes sesiones en charlas-rse-espanol.github.io Y por cierto, este podcast está cubierto por la licencia Creative Commons.
+
+46:54.10
+Sofia
+Hasta pronto.
+
+46:55.48
+Carlos
+Gracias, Peter.
+
+46:55.92
+Carlos
+Gracias, Sofía.
+
+46:56.42
+Carlos
+Y nos vemos en la siguiente charla recién.
+
+46:57.87
+Carlos
+Chau, chau.
+
+46:59.24
+Sofia
+Adiós.
+
